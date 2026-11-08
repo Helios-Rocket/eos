@@ -1,0 +1,24 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "80d109db-100c-4f8b-b3b8-8085c3290ead")
+	(paper "A4")
+	(lib_symbols)
+	(text "To:do:\n- reference design\n- RFFE passives values\n- PA\n- LNA?\n- dual radios?"
+		(exclude_from_sim no)
+		(at 9.906 8.382 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "29354acb-1414-4226-b384-54cb7ee89c3b")
+	)
+	(sheet_instances
+		(path "/"
+			(page "4")
+		)
+	)
+)
