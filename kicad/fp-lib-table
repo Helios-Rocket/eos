@@ -1,3 +1,4 @@
 (fp_lib_table
-  (version 7)
+	(version 7)
+	(lib (name "eos") (type "KiCad") (uri "${KIPRJMOD}/eos.pretty") (options "") (descr ""))
 )

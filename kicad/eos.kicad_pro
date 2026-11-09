@@ -663,11 +663,11 @@
         "wire_width": 8
       },
       {
-        "line_style": 2,
+        "line_style": 1,
         "name": "RF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
-        "schematic_color": "rgb(255, 0, 255)",
+        "schematic_color": "rgb(194, 0, 194)",
         "tuning_profile": "",
         "wire_width": 10
       },
@@ -731,6 +731,66 @@
       "CSI_D1-": [
         "MIPI"
       ],
+      "Net-(C79-Pad1)": [
+        "RF"
+      ],
+      "Net-(C80-Pad1)": [
+        "RF"
+      ],
+      "Net-(C81-Pad1)": [
+        "RF"
+      ],
+      "Net-(C81-Pad2)": [
+        "RF"
+      ],
+      "Net-(C87-Pad1)": [
+        "RF"
+      ],
+      "Net-(C87-Pad2)": [
+        "RF"
+      ],
+      "Net-(C88-Pad2)": [
+        "RF"
+      ],
+      "Net-(C89-Pad1)": [
+        "RF"
+      ],
+      "Net-(C96-Pad1)": [
+        "RF"
+      ],
+      "Net-(J8-In)": [
+        "RF"
+      ],
+      "Net-(J9-In)": [
+        "RF"
+      ],
+      "Net-(L3-Pad2)": [
+        "RF"
+      ],
+      "Net-(U12-RFI_HF)": [
+        "RF"
+      ],
+      "Net-(U12-RFI_LF)": [
+        "RF"
+      ],
+      "Net-(U12-RFO_HF)": [
+        "RF"
+      ],
+      "Net-(U13-ANT)": [
+        "RF"
+      ],
+      "Net-(U13-LNAIN)": [
+        "RF"
+      ],
+      "Net-(U13-RX)": [
+        "RF"
+      ],
+      "Net-(U13-SWRX)": [
+        "RF"
+      ],
+      "Net-(U13-TX)": [
+        "RF"
+      ],
       "Net-(U4-CSI_CLKN)": [
         "MIPI"
       ],
@@ -747,6 +807,24 @@
         "MIPI"
       ],
       "Net-(U4-CSI_DATAP1)": [
+        "MIPI"
+      ],
+      "Net-(U6-CSI_CLKN)": [
+        "MIPI"
+      ],
+      "Net-(U6-CSI_CLKP)": [
+        "MIPI"
+      ],
+      "Net-(U6-CSI_DATAN0)": [
+        "MIPI"
+      ],
+      "Net-(U6-CSI_DATAN1)": [
+        "MIPI"
+      ],
+      "Net-(U6-CSI_DATAP0)": [
+        "MIPI"
+      ],
+      "Net-(U6-CSI_DATAP1)": [
         "MIPI"
       ],
       "USB_DEBUG+": [
@@ -782,7 +860,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "",
     "bom_fmt_presets": [],
@@ -907,21 +985,16 @@
       },
       {
         "filename": "camera.kicad_sch",
-        "name": "camera",
+        "name": "cameras",
         "uuid": "b2215e4a-a5d7-4033-9140-9bbd87e92ec6"
       },
       {
         "filename": "radio.kicad_sch",
         "name": "radio",
         "uuid": "53d89668-08da-4267-ba80-011a431fd9cb"
-      },
-      {
-        "filename": "ntsc.kicad_sch",
-        "name": "ntsc",
-        "uuid": "222aa412-ed1c-4f9e-b2e4-794cfef57c11"
       }
     ],
-    "used_designators": "L1,U1-8,R1-44,J1-4,C1-59,Y1-2,#PWR1-102",
+    "used_designators": "L1-18,Q1-2,U1-14,R1-59,J1-11,D1,C1-100,FB1-6,Y1-4,#PWR1-153",
     "variants": []
   },
   "sheets": [
@@ -935,15 +1008,11 @@
     ],
     [
       "b2215e4a-a5d7-4033-9140-9bbd87e92ec6",
-      "camera"
+      "cameras"
     ],
     [
       "53d89668-08da-4267-ba80-011a431fd9cb",
       "radio"
-    ],
-    [
-      "222aa412-ed1c-4f9e-b2e4-794cfef57c11",
-      "ntsc"
     ]
   ],
   "text_variables": {},
