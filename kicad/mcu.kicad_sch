@@ -11032,7 +11032,7 @@
 	)
 	(global_label "CSI_CLK-"
 		(shape output)
-		(at 243.84 189.23 270)
+		(at 246.38 189.23 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11042,7 +11042,7 @@
 		)
 		(uuid "4380635d-e788-44cd-bada-9c5c8d94d721")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.84 200.7534 90)
+			(at 246.38 200.7534 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11343,7 +11343,7 @@
 	)
 	(global_label "CSI_CLK+"
 		(shape output)
-		(at 246.38 189.23 270)
+		(at 243.84 189.23 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11353,7 +11353,7 @@
 		)
 		(uuid "8a8b9076-d498-4386-b7ee-bdfd091d9fe9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.38 200.7534 90)
+			(at 243.84 200.7534 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
