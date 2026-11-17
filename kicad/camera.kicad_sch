@@ -801,7 +801,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic_MountingPin:Conn_01x05_MountingPin"
+		(symbol "Connector_Generic_MountingPin:Conn_01x03_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -812,7 +812,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 7.62 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -821,8 +821,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x05_MountingPin"
-				(at 1.27 -7.62 0)
+			(property "Value" "Conn_01x03_MountingPin"
+				(at 1.27 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -854,7 +854,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connectable mounting pin connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -887,27 +887,16 @@
 					)
 				)
 			)
-			(symbol "Conn_01x05_MountingPin_1_1"
+			(symbol "Conn_01x03_MountingPin_1_1"
 				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -6.35)
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(rectangle
@@ -943,20 +932,9 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
-						(xy -1.016 -7.112) (xy 1.016 -7.112)
+						(xy -1.016 -4.572) (xy 1.016 -4.572)
 					)
 					(stroke
 						(width 0.1524)
@@ -967,7 +945,7 @@
 					)
 				)
 				(text "Mounting"
-					(at 0 -6.731 0)
+					(at 0 -4.191 0)
 					(effects
 						(font
 							(size 0.381 0.381)
@@ -975,7 +953,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -993,7 +971,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -1011,7 +989,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -1029,43 +1007,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
+					(at 0 -7.62 90)
 					(length 3.048)
 					(name "MountPin"
 						(effects
@@ -2912,6 +2854,283 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET_Other:Q_NMOS_Depletion_GDS"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NMOS_Depletion_GDS"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Depletion-mode N-channel MOSFET gate/drain/source"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_NMOS_Depletion_GDS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NMOS_Depletion_GDS_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "eos:ECS-TXO-32CSMV"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3061,537 +3280,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "eos:Q_Dual_NMOS_PMOS_S1G1D2S2G2D1"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_Dual_NMOS_PMOS_S1G1D2S2G2D1"
-				(at 5.08 -0.254 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Dual NMOS PMOS transistor, 6 pin package"
-				(at -16.002 17.018 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Complementary Pair N-MOS N-MOSFET P-MOS P-MOSFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q_Dual_NMOS_PMOS_S1G1D2S2G2D1_1_1"
-				(unit_name "NMOS")
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Q_Dual_NMOS_PMOS_S1G1D2S2G2D1_2_1"
-				(unit_name "PMOS")
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 -0.381) (xy 3.683 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3805,9 +3493,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "eos:TVP5150AM1"
-			(pin_numbers
-				(hide yes)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5665,7 +5350,7 @@
 		)
 		(uuid "3e672cd6-2d32-4602-9a01-0b981ada04f3")
 	)
-	(text "We're going to do two things, \nsince we don't necessarily have a guarantee \nthat the circuitry to drive the sensor is going to work, \nand we don't have time to iterate the board.\n\nWe're going to do the full implementation of the circuitry \non the rigid board, and hope that it'll work out.\n\nHowever, in the event that it fails for some reason\n(did a bad job, custom flex cable too long, etc)\nwe'll be able to fall back to the COTS rigid board \nusing the standard 22pin connector."
+	(text "We're going to do two things, \nsince we don't necessarily have a guarantee \nthat the circuitry to drive the sensor is going to work, \nand we don't have time to iterate the board.\n\nWe're going to do the full implementation of the circuitry \non the rigid board, and hope that it'll work out.\n\nHowever, in the event that it fails for some reason\n(did a bad job, custom flex cable too long, etc)\nwe'll be able to fall back to the COTS rigid board \nusing the standard 22pin connector.\n\n(THIS IS A LIE)"
 		(exclude_from_sim no)
 		(at 281.178 26.67 0)
 		(effects
@@ -5954,7 +5639,7 @@
 		(uuid "8469bbe6-703a-4472-bd24-2e3829db5df7")
 	)
 	(junction
-		(at 81.28 88.9)
+		(at 81.28 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86181aee-7935-4de9-be44-40c3adedc14f")
@@ -6132,7 +5817,7 @@
 		(uuid "88489a2a-2c6b-4744-a9d2-f57d4f2a6a31")
 	)
 	(no_connect
-		(at 128.27 171.45)
+		(at 128.27 166.37)
 		(uuid "9a9b604b-0124-459d-b87e-1d7a3f0e6e68")
 	)
 	(no_connect
@@ -6329,6 +6014,26 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 158.75) (xy 123.19 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0924cb3c-66e4-4258-9d26-cc0849d419dc")
+	)
+	(wire
+		(pts
+			(xy 120.65 158.75) (xy 120.65 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b2b525a-e0a3-44cf-9fef-70f3d71aa2d0")
+	)
+	(wire
+		(pts
 			(xy 210.82 77.47) (xy 214.63 77.47)
 		)
 		(stroke
@@ -6479,7 +6184,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 88.9) (xy 81.28 88.9)
+			(xy 78.74 90.17) (xy 81.28 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6609,7 +6314,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 88.9) (xy 88.9 90.17)
+			(xy 88.9 88.9) (xy 88.9 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6676,6 +6381,16 @@
 			(type default)
 		)
 		(uuid "28108074-b63a-4f2e-84c0-b080c8102f18")
+	)
+	(wire
+		(pts
+			(xy 83.82 90.17) (xy 83.82 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a403e7c-dd9e-4331-ac6e-6c251fbc5df3")
 	)
 	(wire
 		(pts
@@ -6749,7 +6464,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 88.9) (xy 81.28 90.17)
+			(xy 81.28 90.17) (xy 81.28 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6856,16 +6571,6 @@
 			(type default)
 		)
 		(uuid "3e270d96-1778-4f43-b990-28e6fac5e759")
-	)
-	(wire
-		(pts
-			(xy 114.3 158.75) (xy 123.19 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fd960c4-dd90-4384-8396-f71c4e9c8254")
 	)
 	(wire
 		(pts
@@ -7269,16 +6974,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 161.29) (xy 123.19 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c57c220-cfee-400b-b9fb-993cb7e90850")
-	)
-	(wire
-		(pts
 			(xy 254 100.33) (xy 259.08 100.33)
 		)
 		(stroke
@@ -7499,6 +7194,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 161.29) (xy 123.19 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84bc1736-836e-43e9-9e11-39d98802ebb2")
+	)
+	(wire
+		(pts
 			(xy 182.88 104.14) (xy 185.42 104.14)
 		)
 		(stroke
@@ -7546,6 +7251,16 @@
 			(type default)
 		)
 		(uuid "897fbdae-07e6-4f95-91bc-c7ead66510a3")
+	)
+	(wire
+		(pts
+			(xy 78.74 90.17) (xy 78.74 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "899b8bae-7c80-4dbb-b293-cbad0e8c2c82")
 	)
 	(wire
 		(pts
@@ -8399,16 +8114,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 166.37) (xy 120.65 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed766b98-4512-419f-94da-a026b587ac18")
-	)
-	(wire
-		(pts
 			(xy 46.99 40.64) (xy 46.99 43.18)
 		)
 		(stroke
@@ -8509,7 +8214,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 88.9) (xy 83.82 88.9)
+			(xy 81.28 90.17) (xy 83.82 90.17)
 		)
 		(stroke
 			(width 0)
@@ -8539,13 +8244,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 163.83) (xy 123.19 163.83)
+			(xy 81.28 90.17) (xy 81.28 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb192663-225f-4f34-ae35-0a211d586177")
+		(uuid "f9eaa86e-93df-4885-93c5-0bd994a430aa")
 	)
 	(wire
 		(pts
@@ -8566,16 +8271,6 @@
 			(type default)
 		)
 		(uuid "fd94839c-5bf1-4ac1-aae0-621d6d64601b")
-	)
-	(wire
-		(pts
-			(xy 120.65 166.37) (xy 123.19 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fda8bee3-75a3-4e21-b552-5d8147e19143")
 	)
 	(wire
 		(pts
@@ -8728,14 +8423,14 @@
 		(uuid "c55903df-395b-424c-a52a-c4cabf5405bc")
 	)
 	(label "NTSC_IN"
-		(at 114.3 158.75 0)
+		(at 110.49 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d10fffd3-9024-46a7-ba93-3be2dae9b526")
+		(uuid "c6de4bea-af7e-4b10-a46c-20045d25303a")
 	)
 	(label "Y7"
 		(at 106.68 67.31 180)
@@ -8994,30 +8689,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "SPLIT4_RX"
-		(shape input)
-		(at 120.65 163.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "580234fc-2a51-4d8d-8203-f6769be1605c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.5824 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -9306,30 +8977,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "SPLIT4_TX"
-		(shape input)
-		(at 120.65 161.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "be3a5737-c6e6-479b-9f44-94fd5322076d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.8848 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -10682,8 +10329,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x05_MountingPin")
-		(at 128.27 161.29 0)
+		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GDS")
+		(at 118.11 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10692,9 +10339,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "413970de-0c7a-45ba-844f-331d8c760289")
-		(property "Reference" "J8"
-			(at 130.81 160.3755 0)
+		(uuid "3c2c2a2b-98b0-4340-97dd-328534f99d81")
+		(property "Reference" "Q2"
+			(at 124.46 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10704,8 +10351,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Split 4"
-			(at 130.81 162.9155 0)
+		(property "Value" "NMOS"
+			(at 124.46 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10715,8 +10362,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
-			(at 128.27 161.29 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(at 118.11 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10727,7 +10374,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 161.29 0)
+			(at 118.11 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10737,8 +10384,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 128.27 161.29 0)
+		(property "Description" "Depletion-mode N-channel MOSFET gate/drain/source"
+			(at 118.11 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10747,29 +10394,20 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "5"
-			(uuid "fa41830b-ec9b-47de-b66c-664aaceaf82e")
 		)
 		(pin "1"
-			(uuid "39ecbbc4-64b4-432d-a148-d0984b7003ab")
-		)
-		(pin "4"
-			(uuid "406eaaac-6943-489d-a7a1-eed7988c40c6")
-		)
-		(pin "3"
-			(uuid "9d538d0a-1900-43c3-ac08-17c4c4315743")
+			(uuid "b8c9fcd9-c80c-48f8-8a4e-8034f89103fd")
 		)
 		(pin "2"
-			(uuid "1188c08c-869a-405d-a761-9b55a3640899")
+			(uuid "afae8bd5-8852-49e4-b895-0c3a0e19ef1d")
 		)
-		(pin "MP"
-			(uuid "6bb05ed4-682b-4dc2-8585-d752b4417f27")
+		(pin "3"
+			(uuid "d83989f4-e6a7-4b05-a2ae-4ddf6e31ff1b")
 		)
 		(instances
 			(project "eos"
 				(path "/b2215e4a-a5d7-4033-9140-9bbd87e92ec6"
-					(reference "J8")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -11504,10 +11142,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5d1d2443-944f-4b19-ab1b-76c540585a24")
 		(property "Reference" "J7"
@@ -11805,7 +11443,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 90.17 0)
+		(at 88.9 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11816,7 +11454,7 @@
 		(fields_autoplaced yes)
 		(uuid "6371c830-f5cc-485a-a2a9-bc6669186d23")
 		(property "Reference" "#PWR0120"
-			(at 88.9 96.52 0)
+			(at 88.9 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11827,7 +11465,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 95.25 0)
+			(at 88.9 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11837,7 +11475,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 90.17 0)
+			(at 88.9 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11848,7 +11486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 90.17 0)
+			(at 88.9 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11859,7 +11497,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 90.17 0)
+			(at 88.9 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12701,7 +12339,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 90.17 0)
+		(at 81.28 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12712,7 +12350,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d250df2-9f57-4e44-b043-b7d06a963d29")
 		(property "Reference" "#PWR0119"
-			(at 81.28 96.52 0)
+			(at 81.28 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12723,7 +12361,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 95.25 0)
+			(at 81.28 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12733,7 +12371,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 90.17 0)
+			(at 81.28 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12744,7 +12382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 90.17 0)
+			(at 81.28 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12755,7 +12393,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 90.17 0)
+			(at 81.28 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14047,101 +13685,6 @@
 			(project "eos"
 				(path "/b2215e4a-a5d7-4033-9140-9bbd87e92ec6"
 					(reference "C76")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "eos:Q_Dual_NMOS_PMOS_S1G1D2S2G2D1")
-		(at 118.11 176.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5f80430-6967-4553-b025-a91be90060bd")
-		(property "Reference" "Q1"
-			(at 124.46 175.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_Dual_NMOS_PMOS_S1G1D2S2G2D1"
-			(at 124.46 177.7999 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
-			(at 118.11 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual NMOS PMOS transistor, 6 pin package"
-			(at 102.108 159.512 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c0a315b8-eee9-4df6-bcd4-6cb1b3aa87b9")
-		)
-		(pin "5"
-			(uuid "37967b86-a9bc-4114-8b71-06f5eaac3441")
-		)
-		(pin "3"
-			(uuid "91e9eea5-c78f-4bb3-b2ec-556d0731ccfb")
-		)
-		(pin "6"
-			(uuid "97973a04-9199-4889-a1d2-1c1cd7c9b727")
-		)
-		(pin "1"
-			(uuid "00b83f8e-a21f-4d00-aa78-095f21d44e66")
-		)
-		(pin "4"
-			(uuid "8fbc5e9a-67fc-4c8f-bf5a-22f297072f6c")
-		)
-		(instances
-			(project "eos"
-				(path "/b2215e4a-a5d7-4033-9140-9bbd87e92ec6"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -15909,6 +15452,94 @@
 			(project "eos"
 				(path "/b2215e4a-a5d7-4033-9140-9bbd87e92ec6"
 					(reference "FB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
+		(at 128.27 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f687f05c-e3ad-44dc-8dea-a947ddde3740")
+		(property "Reference" "J12"
+			(at 130.81 157.8355 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Split 4"
+			(at 130.81 160.3755 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+			(at 128.27 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 128.27 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2e01d8bb-5542-421e-bad4-882eac355109")
+		)
+		(pin "MP"
+			(uuid "510a277c-d938-4a15-9f0d-fc4beb16756b")
+		)
+		(pin "1"
+			(uuid "e67b1339-c7d8-4349-8791-227897f5454e")
+		)
+		(pin "3"
+			(uuid "952c5c55-cc8e-4117-a6a2-0961891cc158")
+		)
+		(instances
+			(project "eos"
+				(path "/b2215e4a-a5d7-4033-9140-9bbd87e92ec6"
+					(reference "J12")
 					(unit 1)
 				)
 			)

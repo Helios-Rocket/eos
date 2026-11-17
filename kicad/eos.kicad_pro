@@ -663,7 +663,7 @@
         "line_style": 1,
         "name": "MIPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 153, 0)",
         "tuning_profile": "",
         "wire_width": 8
@@ -672,16 +672,25 @@
         "line_style": 1,
         "name": "RF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(194, 0, 194)",
         "tuning_profile": "",
         "wire_width": 10
       },
       {
+        "line_style": 3,
+        "name": "RF_DIFF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(194, 0, 194)",
+        "tuning_profile": "",
+        "wire_width": 8
+      },
+      {
         "line_style": 1,
         "name": "SDIO",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(0, 132, 132)",
         "tuning_profile": "",
         "wire_width": 8
@@ -690,7 +699,7 @@
         "line_style": 1,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(0, 194, 0)",
         "tuning_profile": "",
         "wire_width": 8
@@ -736,6 +745,12 @@
       ],
       "/mcu/SD_D3": [
         "SDIO"
+      ],
+      "/radio/RF+": [
+        "RF_DIFF"
+      ],
+      "/radio/RF-": [
+        "RF_DIFF"
       ],
       "CSI_CLK+": [
         "MIPI"
@@ -848,6 +863,9 @@
       "Net-(J10-In)": [
         "RF"
       ],
+      "Net-(J11-In)": [
+        "RF"
+      ],
       "Net-(J5-CLK)": [
         "SDIO"
       ],
@@ -920,6 +938,9 @@
       "Net-(U13-TX)": [
         "RF"
       ],
+      "Net-(U15-2.4G_RF)": [
+        "RF"
+      ],
       "Net-(U15-RFI_HF)": [
         "RF"
       ],
@@ -940,6 +961,12 @@
       ],
       "Net-(U16-SWRX)": [
         "RF"
+      ],
+      "Net-(U16-TRN)": [
+        "RF_DIFF"
+      ],
+      "Net-(U16-TRP)": [
+        "RF_DIFF"
       ],
       "Net-(U16-TX)": [
         "RF"
@@ -1009,6 +1036,12 @@
       ],
       "USB_HS-": [
         "USB"
+      ],
+      "unconnected-(J10-In-Pad1)": [
+        "RF"
+      ],
+      "unconnected-(J9-In-Pad1)": [
+        "RF"
       ]
     },
     "netclass_patterns": []
@@ -1177,7 +1210,7 @@
         "uuid": "53d89668-08da-4267-ba80-011a431fd9cb"
       }
     ],
-    "used_designators": "H1-4,#FLG1-8,SW1,C2.2p1,Q1-3,R1-81,JP1-2,J1-11,U1-16,D1,C1-112,L1-19,FB1-6,Y1-4,#PWR1-171",
+    "used_designators": "C2.2p1,SW1,JP1-2,R1-83,H1-4,#FLG1-8,Q1-3,J1-13,U1-17,D1-2,C1-112,Y1-4,#PWR1-171,FB1-6,L1-19",
     "variants": []
   },
   "sheets": [
